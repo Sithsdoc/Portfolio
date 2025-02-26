@@ -2,7 +2,80 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>JosephSardina.com</title>
+    <style>
+      .content{
+    grid-template-columns: auto;
+}
+.gridlayout{
+    display: grid;
+}
+.section1{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: #000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.work{
+    justify-content: content;
+    align-content: center;
+}
+.content-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    background-color: #D3D3D3;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+    margin: 20px;
+}
+.separator{
+    width: 1px;
+    background-color: #000;
+    margin: 0 20px;
+    align-self: stretch;
+}
+.left-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    flex: 1;
+}
+.right-content{
+    text-align: left;
+    flex: 2;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.section5{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+    </style>
   </head>
   <body class="content">
     <div class="gridlayout">
